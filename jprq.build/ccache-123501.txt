@@ -1,0 +1,631 @@
+[2021-12-09T06:10:01.614859 123512] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.614859 123512] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) base_dir = 
+[2021-12-09T06:10:01.614859 123512] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.614859 123512] Config: (default) compiler = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.614859 123512] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.614859 123512] Config: (default) compression = true
+[2021-12-09T06:10:01.614859 123512] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.614859 123512] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) debug = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.614859 123512] Config: (default) disable = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) file_clone = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) hard_link = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.614859 123512] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.614859 123512] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.614859 123512] Config: (default) max_files = 0
+[2021-12-09T06:10:01.614859 123512] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.614859 123512] Config: (default) namespace = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) path = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) read_only = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) recache = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) reshare = false
+[2021-12-09T06:10:01.614859 123512] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.614859 123512] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) stats = true
+[2021-12-09T06:10:01.614859 123512] Config: (default) stats_log = 
+[2021-12-09T06:10:01.614859 123512] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.614859 123512] Config: (default) umask = 
+[2021-12-09T06:10:01.614947 123512] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __constants.c
+[2021-12-09T06:10:01.614956 123512] Hostname: kali
+[2021-12-09T06:10:01.614961 123512] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.614965 123512] Compiler type: gcc
+[2021-12-09T06:10:01.615061 123512] Source file: __constants.c
+[2021-12-09T06:10:01.615074 123512] Object file: __constants.o
+[2021-12-09T06:10:01.615092 123512] Trying direct lookup
+[2021-12-09T06:10:01.615144 123512] Retrieved 843eics7ks2vqfidenp8a4t8rsa16psu0 from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/8/4/3eics7ks2vqfidenp8a4t8rsa16psu0M)
+[2021-12-09T06:10:01.615160 123512] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/8/4/3eics7ks2vqfidenp8a4t8rsa16psu0M
+[2021-12-09T06:10:01.621567 123512] Got result key from manifest
+[2021-12-09T06:10:01.621605 123512] Retrieved 9787iid38od4t7g7941800p2tub1nqb0a from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/9/7/87iid38od4t7g7941800p2tub1nqb0aR)
+[2021-12-09T06:10:01.621619 123512] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/9/7/87iid38od4t7g7941800p2tub1nqb0aR
+[2021-12-09T06:10:01.621707 123512] Reading embedded entry #0 .o (13344 bytes)
+[2021-12-09T06:10:01.621715 123512] Writing to __constants.o
+[2021-12-09T06:10:01.621790 123512] Succeeded getting cached result
+[2021-12-09T06:10:01.621803 123512] Result: direct_cache_hit
+[2021-12-09T06:10:01.621807 123512] Result: primary_storage_hit
+[2021-12-09T06:10:01.621853 123512] lockfile_acquire: symlink /home/th3lucky0ne/.cache/Nuitka/ccache/7/8/stats.lock: No such file or directory
+[2021-12-09T06:10:01.621915 123512] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/8/stats.lock
+[2021-12-09T06:10:01.622045 123512] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/8/stats.lock
+[2021-12-09T06:10:01.622067 123512] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/7/8/stats.lock
+[2021-12-09T06:10:01.627833 123515] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.627833 123515] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) base_dir = 
+[2021-12-09T06:10:01.627833 123515] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.627833 123515] Config: (default) compiler = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.627833 123515] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.627833 123515] Config: (default) compression = true
+[2021-12-09T06:10:01.627833 123515] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.627833 123515] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) debug = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.627833 123515] Config: (default) disable = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) file_clone = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) hard_link = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.627833 123515] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.627833 123515] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.627833 123515] Config: (default) max_files = 0
+[2021-12-09T06:10:01.627833 123515] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.627833 123515] Config: (default) namespace = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) path = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) read_only = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) recache = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) reshare = false
+[2021-12-09T06:10:01.627833 123515] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.627833 123515] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) stats = true
+[2021-12-09T06:10:01.627833 123515] Config: (default) stats_log = 
+[2021-12-09T06:10:01.627833 123515] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.627833 123515] Config: (default) umask = 
+[2021-12-09T06:10:01.627915 123515] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __helpers.c
+[2021-12-09T06:10:01.627934 123515] Hostname: kali
+[2021-12-09T06:10:01.627939 123515] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.627943 123515] Compiler type: gcc
+[2021-12-09T06:10:01.628036 123515] Source file: __helpers.c
+[2021-12-09T06:10:01.628043 123515] Object file: __helpers.o
+[2021-12-09T06:10:01.628060 123515] Trying direct lookup
+[2021-12-09T06:10:01.628110 123515] Retrieved 376erihn07rvqkl5ddb6gg14ei1ppi61o from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/3/7/6erihn07rvqkl5ddb6gg14ei1ppi61oM)
+[2021-12-09T06:10:01.628127 123515] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/3/7/6erihn07rvqkl5ddb6gg14ei1ppi61oM
+[2021-12-09T06:10:01.633709 123515] Got result key from manifest
+[2021-12-09T06:10:01.633754 123515] Retrieved 240d1tivso89mgaqt9o44b2kk0v49mugq from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/2/4/0d1tivso89mgaqt9o44b2kk0v49mugqR)
+[2021-12-09T06:10:01.633769 123515] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/2/4/0d1tivso89mgaqt9o44b2kk0v49mugqR
+[2021-12-09T06:10:01.633863 123515] Reading embedded entry #0 .o (2656 bytes)
+[2021-12-09T06:10:01.633871 123515] Writing to __helpers.o
+[2021-12-09T06:10:01.633932 123515] Succeeded getting cached result
+[2021-12-09T06:10:01.633946 123515] Result: direct_cache_hit
+[2021-12-09T06:10:01.633951 123515] Result: primary_storage_hit
+[2021-12-09T06:10:01.636541 123518] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.636541 123518] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) base_dir = 
+[2021-12-09T06:10:01.636541 123518] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.636541 123518] Config: (default) compiler = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.636541 123518] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.636541 123518] Config: (default) compression = true
+[2021-12-09T06:10:01.636541 123518] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.636541 123518] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) debug = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.636541 123518] Config: (default) disable = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) file_clone = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) hard_link = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.636541 123518] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.636541 123518] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.636541 123518] Config: (default) max_files = 0
+[2021-12-09T06:10:01.636541 123518] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.636541 123518] Config: (default) namespace = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) path = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) read_only = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) recache = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) reshare = false
+[2021-12-09T06:10:01.636541 123518] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.636541 123518] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) stats = true
+[2021-12-09T06:10:01.636541 123518] Config: (default) stats_log = 
+[2021-12-09T06:10:01.636541 123518] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.636541 123518] Config: (default) umask = 
+[2021-12-09T06:10:01.636621 123518] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __loader.c
+[2021-12-09T06:10:01.636639 123518] Hostname: kali
+[2021-12-09T06:10:01.636643 123518] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.636648 123518] Compiler type: gcc
+[2021-12-09T06:10:01.636747 123518] Source file: __loader.c
+[2021-12-09T06:10:01.636754 123518] Object file: __loader.o
+[2021-12-09T06:10:01.636774 123518] Trying direct lookup
+[2021-12-09T06:10:01.636875 123518] Retrieved 9c07vngsaqj4d1afvrivjf4b0af9tntm4 from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/9/c/07vngsaqj4d1afvrivjf4b0af9tntm4M)
+[2021-12-09T06:10:01.636893 123518] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/9/c/07vngsaqj4d1afvrivjf4b0af9tntm4M
+[2021-12-09T06:10:01.640693 123518] Got result key from manifest
+[2021-12-09T06:10:01.640719 123518] Retrieved c81fhpup3t7tnl5rj5k33k5nmfc829j4s from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/c/8/1fhpup3t7tnl5rj5k33k5nmfc829j4sR)
+[2021-12-09T06:10:01.640733 123518] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/c/8/1fhpup3t7tnl5rj5k33k5nmfc829j4sR
+[2021-12-09T06:10:01.640801 123518] Reading embedded entry #0 .o (21200 bytes)
+[2021-12-09T06:10:01.640808 123518] Writing to __loader.o
+[2021-12-09T06:10:01.640889 123518] Succeeded getting cached result
+[2021-12-09T06:10:01.640902 123518] Result: direct_cache_hit
+[2021-12-09T06:10:01.640906 123518] Result: primary_storage_hit
+[2021-12-09T06:10:01.645534 123521] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.645534 123521] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) base_dir = 
+[2021-12-09T06:10:01.645534 123521] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.645534 123521] Config: (default) compiler = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.645534 123521] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.645534 123521] Config: (default) compression = true
+[2021-12-09T06:10:01.645534 123521] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.645534 123521] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) debug = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.645534 123521] Config: (default) disable = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) file_clone = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) hard_link = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.645534 123521] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.645534 123521] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.645534 123521] Config: (default) max_files = 0
+[2021-12-09T06:10:01.645534 123521] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.645534 123521] Config: (default) namespace = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) path = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) read_only = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) recache = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) reshare = false
+[2021-12-09T06:10:01.645534 123521] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.645534 123521] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) stats = true
+[2021-12-09T06:10:01.645534 123521] Config: (default) stats_log = 
+[2021-12-09T06:10:01.645534 123521] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.645534 123521] Config: (default) umask = 
+[2021-12-09T06:10:01.645637 123521] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src module.__main__.c
+[2021-12-09T06:10:01.645646 123521] Hostname: kali
+[2021-12-09T06:10:01.645651 123521] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.645656 123521] Compiler type: gcc
+[2021-12-09T06:10:01.645751 123521] Source file: module.__main__.c
+[2021-12-09T06:10:01.645758 123521] Object file: module.__main__.o
+[2021-12-09T06:10:01.645780 123521] Trying direct lookup
+[2021-12-09T06:10:01.645860 123521] Retrieved 92901pkqn2lhfo26grcgbnjinda5f9bjc from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/9/2/901pkqn2lhfo26grcgbnjinda5f9bjcM)
+[2021-12-09T06:10:01.645877 123521] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/9/2/901pkqn2lhfo26grcgbnjinda5f9bjcM
+[2021-12-09T06:10:01.650834 123515] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/b/stats.lock
+[2021-12-09T06:10:01.651021 123515] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/b/stats.lock
+[2021-12-09T06:10:01.651045 123515] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/7/b/stats.lock
+[2021-12-09T06:10:01.652306 123518] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/e/stats.lock
+[2021-12-09T06:10:01.652455 123518] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/7/e/stats.lock
+[2021-12-09T06:10:01.652475 123518] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/7/e/stats.lock
+[2021-12-09T06:10:01.653084 123521] Got result key from manifest
+[2021-12-09T06:10:01.653108 123521] Retrieved f7737ih2gteho2lqnjjok4i35si85jutc from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/f/7/737ih2gteho2lqnjjok4i35si85jutcR)
+[2021-12-09T06:10:01.653121 123521] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/f/7/737ih2gteho2lqnjjok4i35si85jutcR
+[2021-12-09T06:10:01.653222 123521] Reading embedded entry #0 .o (35888 bytes)
+[2021-12-09T06:10:01.653232 123521] Writing to module.__main__.o
+[2021-12-09T06:10:01.653318 123521] Succeeded getting cached result
+[2021-12-09T06:10:01.653331 123521] Result: direct_cache_hit
+[2021-12-09T06:10:01.653335 123521] Result: primary_storage_hit
+[2021-12-09T06:10:01.653591 123521] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/1/stats.lock
+[2021-12-09T06:10:01.653702 123521] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/1/stats.lock
+[2021-12-09T06:10:01.653721 123521] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/8/1/stats.lock
+[2021-12-09T06:10:01.658301 123524] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.658301 123524] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) base_dir = 
+[2021-12-09T06:10:01.658301 123524] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.658301 123524] Config: (default) compiler = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.658301 123524] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.658301 123524] Config: (default) compression = true
+[2021-12-09T06:10:01.658301 123524] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.658301 123524] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) debug = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.658301 123524] Config: (default) disable = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) file_clone = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) hard_link = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.658301 123524] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.658301 123524] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.658301 123524] Config: (default) max_files = 0
+[2021-12-09T06:10:01.658301 123524] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.658301 123524] Config: (default) namespace = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) path = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) read_only = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) recache = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) reshare = false
+[2021-12-09T06:10:01.658301 123524] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.658301 123524] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) stats = true
+[2021-12-09T06:10:01.658301 123524] Config: (default) stats_log = 
+[2021-12-09T06:10:01.658301 123524] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.658301 123524] Config: (default) umask = 
+[2021-12-09T06:10:01.658380 123524] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2021-12-09T06:10:01.658398 123524] Hostname: kali
+[2021-12-09T06:10:01.658402 123524] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.658407 123524] Compiler type: gcc
+[2021-12-09T06:10:01.658503 123524] Source file: static_src/MainProgram.c
+[2021-12-09T06:10:01.658510 123524] Object file: static_src/MainProgram.o
+[2021-12-09T06:10:01.658531 123524] Trying direct lookup
+[2021-12-09T06:10:01.658636 123524] Retrieved 96efv4ki5trsdqn2hn4m44u7iotjfn2ma from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/9/6/efv4ki5trsdqn2hn4m44u7iotjfn2maM)
+[2021-12-09T06:10:01.658653 123524] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/9/6/efv4ki5trsdqn2hn4m44u7iotjfn2maM
+[2021-12-09T06:10:01.664060 123524] Got result key from manifest
+[2021-12-09T06:10:01.664108 123524] Retrieved 1bbemm9o7ctfrv3rausn3qkmirrmuj3c6 from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/1/b/bemm9o7ctfrv3rausn3qkmirrmuj3c6R)
+[2021-12-09T06:10:01.664121 123524] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/1/b/bemm9o7ctfrv3rausn3qkmirrmuj3c6R
+[2021-12-09T06:10:01.664213 123524] Reading embedded entry #0 .o (30648 bytes)
+[2021-12-09T06:10:01.664222 123524] Writing to static_src/MainProgram.o
+[2021-12-09T06:10:01.664313 123524] Succeeded getting cached result
+[2021-12-09T06:10:01.664325 123524] Result: direct_cache_hit
+[2021-12-09T06:10:01.664329 123524] Result: primary_storage_hit
+[2021-12-09T06:10:01.664383 123524] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/4/stats.lock
+[2021-12-09T06:10:01.664500 123524] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/4/stats.lock
+[2021-12-09T06:10:01.664522 123524] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/8/4/stats.lock
+[2021-12-09T06:10:01.671903 123527] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.671903 123527] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) base_dir = 
+[2021-12-09T06:10:01.671903 123527] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.671903 123527] Config: (default) compiler = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.671903 123527] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.671903 123527] Config: (default) compression = true
+[2021-12-09T06:10:01.671903 123527] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.671903 123527] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) debug = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.671903 123527] Config: (default) disable = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) file_clone = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) hard_link = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.671903 123527] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.671903 123527] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.671903 123527] Config: (default) max_files = 0
+[2021-12-09T06:10:01.671903 123527] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.671903 123527] Config: (default) namespace = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) path = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) read_only = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) recache = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) reshare = false
+[2021-12-09T06:10:01.671903 123527] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.671903 123527] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) stats = true
+[2021-12-09T06:10:01.671903 123527] Config: (default) stats_log = 
+[2021-12-09T06:10:01.671903 123527] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.671903 123527] Config: (default) umask = 
+[2021-12-09T06:10:01.671990 123527] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2021-12-09T06:10:01.672008 123527] Hostname: kali
+[2021-12-09T06:10:01.672013 123527] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.672017 123527] Compiler type: gcc
+[2021-12-09T06:10:01.672136 123527] Source file: static_src/CompiledCellType.c
+[2021-12-09T06:10:01.672144 123527] Object file: static_src/CompiledCellType.o
+[2021-12-09T06:10:01.672165 123527] Trying direct lookup
+[2021-12-09T06:10:01.672224 123527] Retrieved 108bcvvl3e7hflqobjr8ec5aa6j4hoto6 from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/1/0/8bcvvl3e7hflqobjr8ec5aa6j4hoto6M)
+[2021-12-09T06:10:01.672238 123527] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/1/0/8bcvvl3e7hflqobjr8ec5aa6j4hoto6M
+[2021-12-09T06:10:01.677646 123527] Got result key from manifest
+[2021-12-09T06:10:01.677679 123527] Retrieved a74fmpfftle96foe7rjnk8d77djs0eq5o from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/a/7/4fmpfftle96foe7rjnk8d77djs0eq5oR)
+[2021-12-09T06:10:01.677691 123527] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/a/7/4fmpfftle96foe7rjnk8d77djs0eq5oR
+[2021-12-09T06:10:01.677783 123527] Reading embedded entry #0 .o (34088 bytes)
+[2021-12-09T06:10:01.677790 123527] Writing to static_src/CompiledCellType.o
+[2021-12-09T06:10:01.677886 123527] Succeeded getting cached result
+[2021-12-09T06:10:01.677899 123527] Result: direct_cache_hit
+[2021-12-09T06:10:01.677903 123527] Result: primary_storage_hit
+[2021-12-09T06:10:01.678119 123527] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/7/stats.lock
+[2021-12-09T06:10:01.678259 123527] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/7/stats.lock
+[2021-12-09T06:10:01.678281 123527] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/8/7/stats.lock
+[2021-12-09T06:10:01.788211 123534] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.788211 123534] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) base_dir = 
+[2021-12-09T06:10:01.788211 123534] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.788211 123534] Config: (default) compiler = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.788211 123534] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.788211 123534] Config: (default) compression = true
+[2021-12-09T06:10:01.788211 123534] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.788211 123534] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) debug = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.788211 123534] Config: (default) disable = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) file_clone = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) hard_link = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.788211 123534] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.788211 123534] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.788211 123534] Config: (default) max_files = 0
+[2021-12-09T06:10:01.788211 123534] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.788211 123534] Config: (default) namespace = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) path = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) read_only = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) recache = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) reshare = false
+[2021-12-09T06:10:01.788211 123534] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.788211 123534] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) stats = true
+[2021-12-09T06:10:01.788211 123534] Config: (default) stats_log = 
+[2021-12-09T06:10:01.788211 123534] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.788211 123534] Config: (default) umask = 
+[2021-12-09T06:10:01.788297 123534] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2021-12-09T06:10:01.788315 123534] Hostname: kali
+[2021-12-09T06:10:01.788320 123534] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.788324 123534] Compiler type: gcc
+[2021-12-09T06:10:01.788417 123534] Source file: static_src/CompiledFunctionType.c
+[2021-12-09T06:10:01.788423 123534] Object file: static_src/CompiledFunctionType.o
+[2021-12-09T06:10:01.788441 123534] Trying direct lookup
+[2021-12-09T06:10:01.788646 123534] Retrieved 6c97lmr2kajdndmbjbl9t5mg0luslr39i from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/6/c/97lmr2kajdndmbjbl9t5mg0luslr39iM)
+[2021-12-09T06:10:01.788661 123534] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/6/c/97lmr2kajdndmbjbl9t5mg0luslr39iM
+[2021-12-09T06:10:01.802284 123537] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.802284 123537] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) base_dir = 
+[2021-12-09T06:10:01.802284 123537] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.802284 123537] Config: (default) compiler = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.802284 123537] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.802284 123537] Config: (default) compression = true
+[2021-12-09T06:10:01.802284 123537] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.802284 123537] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) debug = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.802284 123537] Config: (default) disable = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) file_clone = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) hard_link = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.802284 123537] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.802284 123537] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.802284 123537] Config: (default) max_files = 0
+[2021-12-09T06:10:01.802284 123537] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.802284 123537] Config: (default) namespace = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) path = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) read_only = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) recache = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) reshare = false
+[2021-12-09T06:10:01.802284 123537] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.802284 123537] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) stats = true
+[2021-12-09T06:10:01.802284 123537] Config: (default) stats_log = 
+[2021-12-09T06:10:01.802284 123537] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.802284 123537] Config: (default) umask = 
+[2021-12-09T06:10:01.802375 123537] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2021-12-09T06:10:01.802395 123537] Hostname: kali
+[2021-12-09T06:10:01.802400 123537] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.802405 123537] Compiler type: gcc
+[2021-12-09T06:10:01.802501 123537] Source file: static_src/CompiledGeneratorType.c
+[2021-12-09T06:10:01.802508 123537] Object file: static_src/CompiledGeneratorType.o
+[2021-12-09T06:10:01.802527 123537] Trying direct lookup
+[2021-12-09T06:10:01.802706 123537] Retrieved d161kq6144k5v7nrhtadohen00jg01r6c from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/d/1/61kq6144k5v7nrhtadohen00jg01r6cM)
+[2021-12-09T06:10:01.802724 123537] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/d/1/61kq6144k5v7nrhtadohen00jg01r6cM
+[2021-12-09T06:10:01.802939 123534] Got result key from manifest
+[2021-12-09T06:10:01.802960 123534] Retrieved 2ef8cm3rvegfua9ogqik1sn3fk0mujvei from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/2/e/f8cm3rvegfua9ogqik1sn3fk0mujveiR)
+[2021-12-09T06:10:01.802972 123534] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/2/e/f8cm3rvegfua9ogqik1sn3fk0mujveiR
+[2021-12-09T06:10:01.803074 123534] Reading embedded entry #0 .o (2393176 bytes)
+[2021-12-09T06:10:01.803083 123534] Writing to static_src/CompiledFunctionType.o
+[2021-12-09T06:10:01.806395 123534] Succeeded getting cached result
+[2021-12-09T06:10:01.806421 123534] Result: direct_cache_hit
+[2021-12-09T06:10:01.806426 123534] Result: primary_storage_hit
+[2021-12-09T06:10:01.806640 123534] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/e/stats.lock
+[2021-12-09T06:10:01.806791 123534] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/8/e/stats.lock
+[2021-12-09T06:10:01.806814 123534] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/8/e/stats.lock
+[2021-12-09T06:10:01.808650 123537] Got result key from manifest
+[2021-12-09T06:10:01.808681 123537] Retrieved 97fburrstvbmavhloqg7scbf4033mioe2 from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/9/7/fburrstvbmavhloqg7scbf4033mioe2R)
+[2021-12-09T06:10:01.808701 123537] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/9/7/fburrstvbmavhloqg7scbf4033mioe2R
+[2021-12-09T06:10:01.808823 123537] Reading embedded entry #0 .o (293320 bytes)
+[2021-12-09T06:10:01.808830 123537] Writing to static_src/CompiledGeneratorType.o
+[2021-12-09T06:10:01.809299 123537] Succeeded getting cached result
+[2021-12-09T06:10:01.809312 123537] Result: direct_cache_hit
+[2021-12-09T06:10:01.809316 123537] Result: primary_storage_hit
+[2021-12-09T06:10:01.809367 123537] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/1/stats.lock
+[2021-12-09T06:10:01.809522 123537] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/1/stats.lock
+[2021-12-09T06:10:01.809543 123537] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/9/1/stats.lock
+[2021-12-09T06:10:01.817748 123540] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.817748 123540] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) base_dir = 
+[2021-12-09T06:10:01.817748 123540] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.817748 123540] Config: (default) compiler = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.817748 123540] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.817748 123540] Config: (default) compression = true
+[2021-12-09T06:10:01.817748 123540] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.817748 123540] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) debug = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.817748 123540] Config: (default) disable = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) file_clone = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) hard_link = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.817748 123540] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.817748 123540] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.817748 123540] Config: (default) max_files = 0
+[2021-12-09T06:10:01.817748 123540] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.817748 123540] Config: (default) namespace = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) path = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) read_only = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) recache = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) reshare = false
+[2021-12-09T06:10:01.817748 123540] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.817748 123540] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) stats = true
+[2021-12-09T06:10:01.817748 123540] Config: (default) stats_log = 
+[2021-12-09T06:10:01.817748 123540] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.817748 123540] Config: (default) umask = 
+[2021-12-09T06:10:01.817843 123540] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2021-12-09T06:10:01.817863 123540] Hostname: kali
+[2021-12-09T06:10:01.817868 123540] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.817872 123540] Compiler type: gcc
+[2021-12-09T06:10:01.817970 123540] Source file: static_src/InspectPatcher.c
+[2021-12-09T06:10:01.817977 123540] Object file: static_src/InspectPatcher.o
+[2021-12-09T06:10:01.817997 123540] Trying direct lookup
+[2021-12-09T06:10:01.818066 123540] Retrieved 360blu51jfoe1qgcmt93t39h6kgicrd3a from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/3/6/0blu51jfoe1qgcmt93t39h6kgicrd3aM)
+[2021-12-09T06:10:01.818081 123540] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/3/6/0blu51jfoe1qgcmt93t39h6kgicrd3aM
+[2021-12-09T06:10:01.823817 123540] Got result key from manifest
+[2021-12-09T06:10:01.823858 123540] Retrieved c85c4bvprkfn15i84ve3a200vas66j32c from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/c/8/5c4bvprkfn15i84ve3a200vas66j32cR)
+[2021-12-09T06:10:01.823872 123540] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/c/8/5c4bvprkfn15i84ve3a200vas66j32cR
+[2021-12-09T06:10:01.823980 123540] Reading embedded entry #0 .o (42768 bytes)
+[2021-12-09T06:10:01.823991 123540] Writing to static_src/InspectPatcher.o
+[2021-12-09T06:10:01.824114 123540] Succeeded getting cached result
+[2021-12-09T06:10:01.824130 123540] Result: direct_cache_hit
+[2021-12-09T06:10:01.824135 123540] Result: primary_storage_hit
+[2021-12-09T06:10:01.824192 123540] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/4/stats.lock
+[2021-12-09T06:10:01.824348 123540] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/4/stats.lock
+[2021-12-09T06:10:01.824368 123540] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/9/4/stats.lock
+[2021-12-09T06:10:01.826082 123543] === CCACHE 4.5.1 STARTED =========================================
+[2021-12-09T06:10:01.826082 123543] Config: (default) absolute_paths_in_stderr = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) base_dir = 
+[2021-12-09T06:10:01.826082 123543] Config: (environment) cache_dir = /home/th3lucky0ne/.cache/Nuitka/ccache
+[2021-12-09T06:10:01.826082 123543] Config: (default) compiler = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) compiler_check = mtime
+[2021-12-09T06:10:01.826082 123543] Config: (default) compiler_type = auto
+[2021-12-09T06:10:01.826082 123543] Config: (default) compression = true
+[2021-12-09T06:10:01.826082 123543] Config: (default) compression_level = 0
+[2021-12-09T06:10:01.826082 123543] Config: (default) cpp_extension = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) debug = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) debug_dir = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) depend_mode = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) direct_mode = true
+[2021-12-09T06:10:01.826082 123543] Config: (default) disable = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) extra_files_to_hash = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) file_clone = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) hard_link = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) hash_dir = true
+[2021-12-09T06:10:01.826082 123543] Config: (default) ignore_headers_in_manifest = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) ignore_options = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) inode_cache = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) keep_comments_cpp = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) limit_multiple = 0.8
+[2021-12-09T06:10:01.826082 123543] Config: (environment) log_file = /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build/ccache-123501.txt
+[2021-12-09T06:10:01.826082 123543] Config: (default) max_files = 0
+[2021-12-09T06:10:01.826082 123543] Config: (default) max_size = 5.0G
+[2021-12-09T06:10:01.826082 123543] Config: (default) namespace = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) path = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) pch_external_checksum = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) prefix_command = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) prefix_command_cpp = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) read_only = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) read_only_direct = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) recache = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) reshare = false
+[2021-12-09T06:10:01.826082 123543] Config: (default) run_second_cpp = true
+[2021-12-09T06:10:01.826082 123543] Config: (default) secondary_storage = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) sloppiness = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) stats = true
+[2021-12-09T06:10:01.826082 123543] Config: (default) stats_log = 
+[2021-12-09T06:10:01.826082 123543] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2021-12-09T06:10:01.826082 123543] Config: (default) umask = 
+[2021-12-09T06:10:01.826158 123543] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -flto -fuse-linker-plugin -fno-fat-lto-objects -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O2 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=164 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2021-12-09T06:10:01.826175 123543] Hostname: kali
+[2021-12-09T06:10:01.826180 123543] Working directory: /home/th3lucky0ne/Dokumente/Projekte/jprq-python-client/jprq.build
+[2021-12-09T06:10:01.826184 123543] Compiler type: gcc
+[2021-12-09T06:10:01.826276 123543] Source file: static_src/MetaPathBasedLoader.c
+[2021-12-09T06:10:01.826283 123543] Object file: static_src/MetaPathBasedLoader.o
+[2021-12-09T06:10:01.826302 123543] Trying direct lookup
+[2021-12-09T06:10:01.826447 123543] Retrieved 835cu5h6i7jojaelia9170vpt1t7pm22i from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/8/3/5cu5h6i7jojaelia9170vpt1t7pm22iM)
+[2021-12-09T06:10:01.826461 123543] Looking for result key in /home/th3lucky0ne/.cache/Nuitka/ccache/8/3/5cu5h6i7jojaelia9170vpt1t7pm22iM
+[2021-12-09T06:10:01.831839 123543] Got result key from manifest
+[2021-12-09T06:10:01.831868 123543] Retrieved bc218gek0dnfb89u6tuh0ge79ssvkhuka from primary storage (/home/th3lucky0ne/.cache/Nuitka/ccache/b/c/218gek0dnfb89u6tuh0ge79ssvkhukaR)
+[2021-12-09T06:10:01.831881 123543] Reading result /home/th3lucky0ne/.cache/Nuitka/ccache/b/c/218gek0dnfb89u6tuh0ge79ssvkhukaR
+[2021-12-09T06:10:01.832045 123543] Reading embedded entry #0 .o (93288 bytes)
+[2021-12-09T06:10:01.832063 123543] Writing to static_src/MetaPathBasedLoader.o
+[2021-12-09T06:10:01.832245 123543] Succeeded getting cached result
+[2021-12-09T06:10:01.832257 123543] Result: direct_cache_hit
+[2021-12-09T06:10:01.832262 123543] Result: primary_storage_hit
+[2021-12-09T06:10:01.832332 123543] Acquired lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/7/stats.lock
+[2021-12-09T06:10:01.832458 123543] Releasing lock /home/th3lucky0ne/.cache/Nuitka/ccache/9/7/stats.lock
+[2021-12-09T06:10:01.832480 123543] Unlink /home/th3lucky0ne/.cache/Nuitka/ccache/9/7/stats.lock

@@ -1,4 +1,9 @@
 ### th3lucky0ne:
+Usage: 
+	jprq [http/tcp] [PORT] --address [ADDRESS_TO_FORWARD]
+Install: 
+	pip install git+https://github.com/th3lucky/jprq-client-python
+-------
 
 Fork of jprq, supporting non-localhost exposures!
 The original already SUPPORTS TOR!
@@ -11,8 +16,9 @@ Recommend to use on Whonix & with proxychains only!
 
 Remember setting LHOST to tcp.jprq.io, set LPORT to whatever Port the server assigns,
 then set ReverseListenerBindAddress to Loopback/Local IP and ReverseListenerBindPort to Local Port!
-
-:)
+[MIGHT be enough to use anonsurf for anonymity!]
+{Feel free to grab my config over at the kali-
+TODO: Add https support or fix http when using https port
 # JPRQ - Ngrok Alternative
 
 
