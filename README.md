@@ -1,4 +1,20 @@
+### th3lucky0ne:
+
+Fork of jprq, supporting non-localhost exposures!
+The original already SUPPORTS TOR!
+
+Tested on Whonix/Kali
+Use Responsibly
+
+Recommend to use on Whonix & with proxychains only!
+
+
+Remember setting LHOST to tcp.jprq.io, set LPORT to whatever Port the server assigns,
+then set ReverseListenerBindAddress to Loopback/Local IP and ReverseListenerBindPort to Local Port!
+
+:)
 # JPRQ - Ngrok Alternative
+
 
 ## Get Your Localhost Online and HTTPS
 

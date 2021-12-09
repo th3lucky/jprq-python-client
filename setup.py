@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import sys
 
 from setuptools import setup, find_packages
@@ -46,10 +46,10 @@ setup(
     ],
     keywords='jprq live localhost online https ngrok alternative',
     author='Azimjon Pulatov',
-    author_email='azimjohn@yahoo.com',
-    maintainer='Azimjon Pulatov',
-    maintainer_email='azimjohn@yahoo.com',
-    url='https://github.com/azimjohn/jprq-py',
+    author_email='lucky.anonymous@protonmail.com',
+    maintainer='th3lucky0ne',
+    maintainer_email='lucky.anonymous@protonmail.com',
+    url='https://github.com/th3lucky/jprq-python-client',
     license='MIT',
     packages=find_packages(),
     entry_points={
